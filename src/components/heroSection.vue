@@ -23,6 +23,37 @@
                     <a href="">Learn More</a>
                 </div>
             </div>
+            <div class="right_flg">
+                <div class="grid">
+                    <div class="indiv">
+                        <img src="@/assets/ast01.svg" alt="">
+                    </div>
+                    <div class="indiv">
+                        <img src="@/assets/ast02.svg" alt="">
+                    </div>
+                    <div class="indiv">
+                        <img src="@/assets/ast03.svg" alt="">
+                    </div>
+                    <div class="indiv">
+                        <img src="@/assets/ast04.svg" alt="">
+                    </div>
+                    <div class="indiv">
+                        <img src="@/assets/ast05.svg" alt="">
+                    </div>
+                    <div class="indiv">
+                        <img src="@/assets/ast06.svg" alt="">
+                    </div>
+                    <div class="indiv">
+                        <img src="@/assets/ast07.svg" alt="">
+                    </div>
+                    <div class="indiv">
+                        <img src="@/assets/ast08.svg" alt="">
+                    </div>
+                    <div class="indiv">
+                        <img src="@/assets/ast09.svg" alt="">
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </template>

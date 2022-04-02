@@ -1,7 +1,11 @@
+<script setup>
+import hero from "@/components/heroSection.vue"
+</script>
+
 <template>
-    <div></div>
+    <hero/>
 </template>
 
-<script></script>
+
 
 <style lang="scss"></style>
