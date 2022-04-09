@@ -1,7 +1,7 @@
 header {
     padding: 2.5rem 0px;
     h3 {
-        padding: 15px 20px;
+        padding: 15px 2rem;
         border-radius: 1rem;
         background: #131314;
     }
@@ -19,6 +19,15 @@ header {
         }
         p {
             color: #ffffff80;
+        }
+        .cta{
+            align-items: flex-end;
+            gap: 0 3rem;
+            p{
+                a{
+                    color: white;
+                }
+            }
         }
     }
     .right_flg {

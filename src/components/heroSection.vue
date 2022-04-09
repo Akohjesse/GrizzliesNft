@@ -18,7 +18,9 @@
                     <div class="btn_mono">
                         <button>How It Works</button>
                     </div>
-                    <a href="">Learn More</a>
+                    <p>
+                        <a href="">Learn More</a>
+                    </p>
                 </div>
             </div>
             <div class="right_flg flex flex_r">
