@@ -9,10 +9,10 @@ header {
 .hero_content {
     padding: 3.5rem 0px;
     .txt {
-        width: 48%;
-        gap: 3rem;
+        width: 45%;
+        gap: 2rem;
         h1 {
-            font-size: 5em;
+            font-size: 4.7em;
             font-weight: 400;
             letter-spacing: 1px;
             line-height: 6rem;
@@ -22,11 +22,20 @@ header {
         }
     }
     .right_flg {
-        width: 35%;
-        .indiv {
-            width: 100%;
-            img {
+        width: 40%;
+        .img{
+            width: 31%;
+            align-self: center;
+            display: flex;
+            gap: 0.5rem;
+            &:nth-child(1), &:nth-child(3){
+               transform: translateY(2rem);
+            }
+            .indiv{
                 width: 100%;
+                img{
+                    width: 100%;
+                }
             }
         }
     }

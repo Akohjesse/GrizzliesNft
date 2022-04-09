@@ -14,15 +14,15 @@
                     NFTs will continue to revolutionize the way that artists and
                     fans create community together.
                 </p>
-                <div class="cta">
+                <div class="cta flex">
                     <div class="btn_mono">
                         <button>How It Works</button>
                     </div>
                     <a href="">Learn More</a>
                 </div>
             </div>
-            <div class="right_flg grid">
-                <div class="flex_col flex">
+            <div class="right_flg flex flex_r">
+                <div class="img flex_col">
                     <div class="indiv">
                         <img src="@/assets/ast01.svg" alt="" />
                     </div>
@@ -33,7 +33,7 @@
                         <img src="@/assets/ast03.svg" alt="" />
                     </div>
                 </div>
-                <div class="flex_col flex">
+                <div class="img flex_col">
                     <div class="indiv">
                         <img src="@/assets/ast04.svg" alt="" />
                     </div>
@@ -44,7 +44,7 @@
                         <img src="@/assets/ast06.svg" alt="" />
                     </div>
                 </div>
-                <div class="flex_col flex">
+                <div class="img flex_col">
                     <div class="indiv">
                         <img src="@/assets/ast07.svg" alt="" />
                     </div>
