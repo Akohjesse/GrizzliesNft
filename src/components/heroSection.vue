@@ -7,7 +7,7 @@
             <h3>@GrizzliesNFT</h3>
         </header>
 
-        <div class="hero_content">
+        <div class="hero_content flex flex_r">
             <div class="lft_flg">
                 <div class="txt">
                     <h1>Buy & Sell NFTs On The Web</h1>
@@ -24,34 +24,32 @@
                 </div>
             </div>
             <div class="right_flg">
-                <div class="grid">
-                    <div class="indiv">
-                        <img src="@/assets/ast01.svg" alt="">
-                    </div>
-                    <div class="indiv">
-                        <img src="@/assets/ast02.svg" alt="">
-                    </div>
-                    <div class="indiv">
-                        <img src="@/assets/ast03.svg" alt="">
-                    </div>
-                    <div class="indiv">
-                        <img src="@/assets/ast04.svg" alt="">
-                    </div>
-                    <div class="indiv">
-                        <img src="@/assets/ast05.svg" alt="">
-                    </div>
-                    <div class="indiv">
-                        <img src="@/assets/ast06.svg" alt="">
-                    </div>
-                    <div class="indiv">
-                        <img src="@/assets/ast07.svg" alt="">
-                    </div>
-                    <div class="indiv">
-                        <img src="@/assets/ast08.svg" alt="">
-                    </div>
-                    <div class="indiv">
-                        <img src="@/assets/ast09.svg" alt="">
-                    </div>
+                <div class="indiv">
+                    <img src="@/assets/ast01.svg" alt="" />
+                </div>
+                <div class="indiv">
+                    <img src="@/assets/ast02.svg" alt="" />
+                </div>
+                <div class="indiv">
+                    <img src="@/assets/ast03.svg" alt="" />
+                </div>
+                <div class="indiv">
+                    <img src="@/assets/ast04.svg" alt="" />
+                </div>
+                <div class="indiv">
+                    <img src="@/assets/ast05.svg" alt="" />
+                </div>
+                <div class="indiv">
+                    <img src="@/assets/ast06.svg" alt="" />
+                </div>
+                <div class="indiv">
+                    <img src="@/assets/ast07.svg" alt="" />
+                </div>
+                <div class="indiv">
+                    <img src="@/assets/ast08.svg" alt="" />
+                </div>
+                <div class="indiv">
+                    <img src="@/assets/ast09.svg" alt="" />
                 </div>
             </div>
         </div>
@@ -62,4 +60,17 @@
 export default {}
 </script>
 
-<style></style>
+<style lang="scss" scoped>
+header {
+    padding: 30px 0px;
+    h3 {
+        padding: 15px 20px;
+        border-radius: 1rem;
+        background: #131314;
+    }
+}
+.hero_content {
+    .right_flg {
+    }
+}
+</style>

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400;500;600&family=Syne&display=swap');
 * {
     margin: 0px;
     padding: 0px;
@@ -7,8 +8,10 @@ html {
     scroll-behavior: smooth;
 }
 body {
-    font-family: "Sora";
+    font-family: 'Syne', sans-serif;
     overflow-x: hidden;
+    background: #030305;
+    color: white;
 }
 ::-webkit-scrollbar {
     display: none;
@@ -40,6 +43,6 @@ body {
     }
 }
 .temp_wrap {
-    width: 90%;
+    width: 85%;
     margin: 0 auto;
 }
