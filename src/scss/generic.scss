@@ -10,8 +10,11 @@ html {
 body {
     font-family: 'Syne', sans-serif;
     overflow-x: hidden;
-    background: #030305;
+    background-color: #030305;
     color: white;
+    background-image: url('../assets//bgblur1.svg'), url(../assets/bgblur2.svg);
+    background-position: center right, center left;
+    background-repeat: no-repeat;
 }
 p {
     font-size: 1.1em;

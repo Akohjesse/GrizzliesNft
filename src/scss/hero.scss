@@ -20,11 +20,11 @@ header {
         p {
             color: #ffffff80;
         }
-        .cta{
+        .cta {
             align-items: flex-end;
             gap: 0 3rem;
-            p{
-                a{
+            p {
+                a {
                     color: white;
                 }
             }
@@ -32,17 +32,18 @@ header {
     }
     .right_flg {
         width: 40%;
-        .img{
+        .img {
             width: 31%;
             align-self: center;
             display: flex;
             gap: 0.5rem;
-            &:nth-child(1), &:nth-child(3){
-               transform: translateY(2rem);
+            &:nth-child(1),
+            &:nth-child(3) {
+                transform: translateY(2rem);
             }
-            .indiv{
+            .indiv {
                 width: 100%;
-                img{
+                img {
                     width: 100%;
                 }
             }
