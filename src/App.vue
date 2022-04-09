@@ -8,4 +8,6 @@ import hero from "@/components/heroSection.vue"
 
 
 
-<style lang="scss"></style>
+<style lang="scss">
+@import "./scss/_generic.scss";
+</style>
