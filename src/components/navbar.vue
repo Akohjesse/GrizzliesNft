@@ -19,10 +19,18 @@ export default {}
     padding: 4rem 0;
     nav {
         margin: 0 auto;
-        width: 35%;
+        width: 40%;
         border: 1px solid white;
-        padding: 7px 15px;
+        padding: 10px 18px;
         border-radius: 10px;
+        p {
+            &:nth-child(1) {
+                background: white;
+                color: black;
+                border-radius: 5%;
+                padding: 9px 15px;
+            }
+        }
     }
 }
 </style>
