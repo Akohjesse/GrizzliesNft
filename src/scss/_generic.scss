@@ -13,6 +13,10 @@ body {
     background: #030305;
     color: white;
 }
+p {
+    font-size: 1.1em;
+    line-height: 1.5rem;
+}
 ::-webkit-scrollbar {
     display: none;
 }
@@ -42,7 +46,16 @@ body {
         color: black;
     }
 }
+button {
+    outline: none;
+    cursor: pointer;
+    border: none;
+    padding: 12px 30px;
+    font-size: 1em;
+    border-radius: 3px;
+    font-family: inherit;
+}
 .temp_wrap {
-    width: 85%;
+    width: 80%;
     margin: 0 auto;
 }

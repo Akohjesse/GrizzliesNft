@@ -8,7 +8,7 @@
         </header>
 
         <div class="hero_content flex flex_r">
-            <div class="txt">
+            <div class="txt flex_col flex">
                 <h1>Buy & Sell NFTs On The Web</h1>
                 <p>
                     NFTs will continue to revolutionize the way that artists and
@@ -22,32 +22,38 @@
                 </div>
             </div>
             <div class="right_flg grid">
-                <div class="indiv">
-                    <img src="@/assets/ast01.svg" alt="" />
+                <div class="flex_col flex">
+                    <div class="indiv">
+                        <img src="@/assets/ast01.svg" alt="" />
+                    </div>
+                    <div class="indiv">
+                        <img src="@/assets/ast02.svg" alt="" />
+                    </div>
+                    <div class="indiv">
+                        <img src="@/assets/ast03.svg" alt="" />
+                    </div>
                 </div>
-                <div class="indiv">
-                    <img src="@/assets/ast02.svg" alt="" />
+                <div class="flex_col flex">
+                    <div class="indiv">
+                        <img src="@/assets/ast04.svg" alt="" />
+                    </div>
+                    <div class="indiv">
+                        <img src="@/assets/ast05.svg" alt="" />
+                    </div>
+                    <div class="indiv">
+                        <img src="@/assets/ast06.svg" alt="" />
+                    </div>
                 </div>
-                <div class="indiv">
-                    <img src="@/assets/ast03.svg" alt="" />
-                </div>
-                <div class="indiv">
-                    <img src="@/assets/ast04.svg" alt="" />
-                </div>
-                <div class="indiv">
-                    <img src="@/assets/ast05.svg" alt="" />
-                </div>
-                <div class="indiv">
-                    <img src="@/assets/ast06.svg" alt="" />
-                </div>
-                <div class="indiv">
-                    <img src="@/assets/ast07.svg" alt="" />
-                </div>
-                <div class="indiv">
-                    <img src="@/assets/ast08.svg" alt="" />
-                </div>
-                <div class="indiv">
-                    <img src="@/assets/ast09.svg" alt="" />
+                <div class="flex_col flex">
+                    <div class="indiv">
+                        <img src="@/assets/ast07.svg" alt="" />
+                    </div>
+                    <div class="indiv">
+                        <img src="@/assets/ast08.svg" alt="" />
+                    </div>
+                    <div class="indiv">
+                        <img src="@/assets/ast09.svg" alt="" />
+                    </div>
                 </div>
             </div>
         </div>
