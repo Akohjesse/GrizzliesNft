@@ -16,12 +16,12 @@ export default {}
 
 <style lang="scss" scoped>
 .wrap {
-    padding: 4rem 0;
+    padding: 6rem 0;
     nav {
         margin: 0 auto;
         width: 40%;
         border: 1px solid white;
-        padding: 10px 18px;
+        padding: 10px 2rem;
         border-radius: 10px;
         p {
             &:nth-child(1) {
