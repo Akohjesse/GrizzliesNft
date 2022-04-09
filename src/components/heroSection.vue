@@ -8,14 +8,12 @@
         </header>
 
         <div class="hero_content flex flex_r">
-            <div class="lft_flg">
-                <div class="txt">
-                    <h1>Buy & Sell NFTs On The Web</h1>
-                    <p>
-                        NFTs will continue to revolutionize the way that artists
-                        and fans create community together.
-                    </p>
-                </div>
+            <div class="txt">
+                <h1>Buy & Sell NFTs On The Web</h1>
+                <p>
+                    NFTs will continue to revolutionize the way that artists and
+                    fans create community together.
+                </p>
                 <div class="cta">
                     <div class="btn_mono">
                         <button>How It Works</button>
@@ -23,7 +21,7 @@
                     <a href="">Learn More</a>
                 </div>
             </div>
-            <div class="right_flg">
+            <div class="right_flg grid">
                 <div class="indiv">
                     <img src="@/assets/ast01.svg" alt="" />
                 </div>
@@ -60,17 +58,4 @@
 export default {}
 </script>
 
-<style lang="scss" scoped>
-header {
-    padding: 30px 0px;
-    h3 {
-        padding: 15px 20px;
-        border-radius: 1rem;
-        background: #131314;
-    }
-}
-.hero_content {
-    .right_flg {
-    }
-}
-</style>
+<style lang="scss" src="@/scss/hero.scss"></style>
