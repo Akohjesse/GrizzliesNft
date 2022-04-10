@@ -4,6 +4,7 @@ import carousel from '@/components/carousel.vue'
 import Nav from '@/components/navbar.vue'
 import creators from '@/components/creators.vue'
 import auctions from '@/components/auctions.vue'
+import Collections from '../src/components/collections.vue'
 </script>
 
 <template>
@@ -18,6 +19,7 @@ import auctions from '@/components/auctions.vue'
     <Nav />
     <carousel />
     <auctions />
+    <Collections />
     <creators />
 </template>
 

@@ -4,7 +4,9 @@ import db from '../db/featured.json'
 
 <template>
     <div class="temp_wrap">
-        <p>Featured</p>
+        <div class="header">
+            <p>Featured</p>
+        </div>
         <br />
         <div class="divette flex">
             <div

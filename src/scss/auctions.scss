@@ -1,10 +1,4 @@
 .temp_wrap {
-    padding: 5rem 0px;
-    .header {
-        > p {
-            font-size: 1.4em;
-        }
-    }
     .name {
         font-size: 1.4em;
     }
@@ -33,8 +27,5 @@
                 width: 100%;
             }
         }
-    }
-    small {
-        color: #ffffff80;
     }
 }
