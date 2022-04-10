@@ -1,12 +1,5 @@
 <template>
     <div class="temp_wrap">
-        <header class="flex flex_r">
-            <div class="logo">
-                <img src="@/assets/logo.svg" alt="" />
-            </div>
-            <h3>@GrizzliesNFT</h3>
-        </header>
-
         <div class="hero_content flex flex_r">
             <div class="txt flex_col flex">
                 <h1>Buy & Sell NFTs On The Web</h1>
