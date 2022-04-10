@@ -1,15 +1,23 @@
-.car_wrap{
+.car_wrap {
     border: 1px solid rgba(255, 255, 255, 0.2);
     padding: 25px;
     border-radius: 10px;
     gap: 1rem;
-    .img{
+    .img {
         width: 100%;
-        img{
+        img {
             width: 100%;
         }
     }
-    small{
-        color: #ffffff80;
+    .bid{
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        small {
+            color: #ffffff80;
+        }
+        p {
+            font-size: 1.2em;
+        }
     }
 }

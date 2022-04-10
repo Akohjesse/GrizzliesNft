@@ -5,17 +5,17 @@
                 <img src="@/assets/ft1.svg" alt="" />
             </div>
             <div class="flex ctnt flex_r">
-                <div class="name">
+                <div class="bid">
                     <small>Item Name</small>
                     <p>Robotic Bug</p>
                 </div>
                 <div class="bid">
-                    <small>Current Bid</small>
-                   <div class="flex_row flex">
+                    <small>Current Bid</small> 
+                    <div class="flex_row flex">
                         <img src="@/assets/bid1.svg" alt="" />
                         &nbsp; &nbsp;
                         <p>0.005 ETH</p>
-                   </div>  
+                    </div>
                 </div>
             </div>
             <div class="btn_mono btn_long">
