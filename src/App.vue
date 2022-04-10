@@ -3,6 +3,7 @@ import hero from '@/components/heroSection.vue'
 import carousel from '@/components/carousel.vue'
 import Nav from '@/components/navbar.vue'
 import creators from '@/components/creators.vue'
+import auctions from '@/components/auctions.vue'
 </script>
 
 <template>
@@ -16,6 +17,7 @@ import creators from '@/components/creators.vue'
     <hero />
     <Nav />
     <carousel />
+    <auctions />
     <creators />
 </template>
 

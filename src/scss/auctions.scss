@@ -1,0 +1,26 @@
+.header {
+    > p {
+        font-size: 1.4em;
+    }
+}
+.box {
+    border-radius: 9px;
+    .metadata {
+        gap: 3rem;
+        background: #131314;
+        width: 30%;
+        padding: 2rem 2rem;
+        p {
+            font-size: 1.2em;
+        }
+    }
+    .img {
+        width: 68%;
+        img {
+            width: 100%;
+        }
+    }
+}
+small {
+    color: #ffffff80;
+}
