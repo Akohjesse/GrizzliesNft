@@ -12,7 +12,9 @@ import db from '../db/creators.json'
                 v-for="item in db"
                 :key="item.id"
             >
-                <div class="bg"></div>
+                <div class="bg">
+                    <img :src="require(`@/assets/bg${item.id}.svg`)" alt="" />
+                </div>
                 <div class="cntnt flex flex_col">
                     <div class="n2 ta_center flex flex_col">
                         <div class="img">
