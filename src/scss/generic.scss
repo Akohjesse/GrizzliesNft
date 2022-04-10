@@ -17,6 +17,7 @@ body {
     position: absolute;
 }
 .bg_left {
+    z-index: -100;
     top: -20%;
     left: -50%;
     img {
@@ -24,6 +25,7 @@ body {
     }
 }
 .bg_right {
+    z-index: -100;
     top: 20%;
     right: -70%;
     img {
