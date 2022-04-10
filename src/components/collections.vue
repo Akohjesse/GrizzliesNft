@@ -11,9 +11,12 @@ import db from '@/db/collections.json'
         <br />
         <div class="grid container">
             <div v-for="item in db" :key="item.id">
-                <h1 class="abs">
-                    <img src="@/assets/pref.svg" alt="" /> {{ item.name }}
-                </h1>
+                <h1 class="abs"> <img src="@/assets/pref.svg" alt=""> {{item.name}}</h1>
+                <div class="seller_id flex">
+                        <img src="@/assets/bid1.svg" alt="" />
+                        &nbsp; &nbsp;
+                        <p class="name">@Johny</p>
+                    </div>
                 <img :src="require(`@/assets/0${item.id}.svg`)" alt="" />
                 <div class="top abs">
                     <img :src="require(`@/assets/l${item.id}.svg`)" alt="" />
