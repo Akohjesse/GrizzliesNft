@@ -2,23 +2,25 @@
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;
     > div {
-        height: 28rem;
-        width: 100%;
-        background-color: blue;
         position: relative;
+        img {
+            width: 100%;
+        }
         .top {
-            height: 14rem;
-            width: 50%;
             top: 0px;
             left: 0px;
-            background-color: rgb(222, 132, 132);
+            width: 50%;
+            img {
+                width: 100%;
+            }
         }
         .two {
-            height: 14rem;
-            width: 50%;
             bottom: 0px;
+            width: 50%;
             left: 0px;
-            background-color: yellow;
+            img {
+                width: 100%;
+            }
         }
     }
 }

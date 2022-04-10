@@ -1,3 +1,7 @@
+<script setup>
+import db from '@/db/collections.json'
+</script>
+
 <template>
     <div class="temp_wrap">
         <div class="header flex flex_r">
@@ -6,16 +10,17 @@
         </div>
         <br />
         <div class="grid container">
-            <div>
-                <div class="top abs"></div>
-                <div class="two abs"></div>
+            <div v-for="item in db" :key="item.id">
+                <img :src="require(`@/assets/0${item.id}.svg`)" alt="" />
+                <div class="top abs">
+                    <img :src="require(`@/assets/l${item.id}.svg`)" alt="" />
+                </div>
+                <div class="two abs">
+                    <img :src="require(`@/assets/b${item.id}.svg`)" alt="" />
+                </div>
             </div>
         </div>
     </div>
 </template>
-
-<script>
-export default {}
-</script>
 
 <style lang="scss" src="@/scss/collections.scss" scoped></style>
