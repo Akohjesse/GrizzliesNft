@@ -6,6 +6,7 @@ import creators from '@/components/creators.vue'
 import auctions from '@/components/auctions.vue'
 import Collections from '../src/components/collections.vue'
 import Footer from '@/components/footer.vue'
+import Header from '@/components/header.vue'
 </script>
 
 <template>
@@ -16,6 +17,7 @@ import Footer from '@/components/footer.vue'
         <img src="@/assets/bgblur2.svg" alt="" />
     </div>
     <div class="bg_right"></div>
+    <Header />
     <hero />
     <Nav />
     <carousel />

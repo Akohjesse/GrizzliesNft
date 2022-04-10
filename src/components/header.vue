@@ -1,5 +1,5 @@
 <template>
-    <header class="flex flex_r">
+    <header class="flex flex_r temp_wrap">
         <div class="logo">
             <img src="@/assets/logo.svg" alt="" />
         </div>
