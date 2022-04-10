@@ -1,20 +1,24 @@
+<script setup>
+ import db from '../db/featured.json'
+</script>
+
 <template>
-    <div class="divette flex">
+    <div class="divette flex" v-for="item in db" :key="item.id">
         <div class="car_wrap flex_col flex">
             <div class="img">
-                <img src="@/assets/ft1.svg" alt="" />
+                <img :src="require(`@/assets/ft${item.id}.svg`)" alt="" />
             </div>
             <div class="flex ctnt flex_r">
                 <div class="bid">
                     <small>Item Name</small>
-                    <p>Robotic Bug</p>
+                    <p>{{item.name}}</p>
                 </div>
                 <div class="bid">
                     <small>Current Bid</small> 
                     <div class="flex_row flex">
                         <img src="@/assets/bid1.svg" alt="" />
                         &nbsp; &nbsp;
-                        <p>0.005 ETH</p>
+                        <p>{{item.bid}} ETH</p>
                     </div>
                 </div>
             </div>
@@ -25,8 +29,6 @@
     </div>
 </template>
 
-<script>
-export default {}
-</script>
+
 
 <style lang="scss" src="@/scss/carousel.scss"></style>
