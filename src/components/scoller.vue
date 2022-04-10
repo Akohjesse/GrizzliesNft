@@ -37,19 +37,20 @@ export default {}
 
 <style lang="scss" scoped>
 section {
-    border: 2px solid white;
+    border: 1px solid white;
+    margin: 3rem 0px;
     border-left: none;
     border-right: none;
     gap: 0 2rem;
     flex-wrap: nowrap;
-    padding: 1rem 0px;
+    padding: 1.3rem 0px;
     overflow: scroll;
     .sect {
         flex-shrink: 0;
         flex-shrink: 0;
         gap: 0 1rem;
         p {
-            font-size: 1.2em;
+            font-size: 1.3em;
         }
     }
 }
