@@ -1,9 +1,15 @@
 .divette {
+    flex-wrap: nowrap;
+    gap: 0 3rem;
+    overflow: visible;
+    margin: 0 auto;
+    padding: 3rem 0;
     .car_wrap {
         border: 1px solid rgba(255, 255, 255, 0.2);
         padding: 25px;
         border-radius: 10px;
         gap: 1rem;
+        flex-shrink: 0;
         .img {
             width: 100%;
             img {

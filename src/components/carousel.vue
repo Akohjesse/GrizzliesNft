@@ -3,8 +3,16 @@ import db from '../db/featured.json'
 </script>
 
 <template>
-    <div class="divette flex">
+    <div class="divette temp_wrap flex">
         <div class="car_wrap flex_col flex" v-for="item in db" :key="item.id">
+            <div class="act_buttons flex flex_r">
+                <div class="like">
+                    <img src="@/assets/like.svg" alt="" />
+                </div>
+                <div class="more">
+                    <img src="@/assets/more.svg" alt="" />
+                </div>
+            </div>
             <div class="img">
                 <img :src="require(`@/assets/ft${item.id}.svg`)" alt="" />
             </div>
