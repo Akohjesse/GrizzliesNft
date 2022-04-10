@@ -4,7 +4,7 @@
             <p>Live Auctions</p>
             <small>View all</small>
         </div>
-        <br>
+        <br />
         <div class="flex flex_r box">
             <div class="metadata flex flex_col">
                 <br />
