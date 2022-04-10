@@ -1,26 +1,41 @@
-.header {
-    > p {
+.temp_wrap{
+    padding: 5rem 0px;
+    .header {
+        > p {
+            font-size: 1.4em;
+        }
+    }
+    .name {
         font-size: 1.4em;
     }
-}
-.box {
-    border-radius: 9px;
-    .metadata {
-        gap: 3rem;
-        background: #131314;
-        width: 30%;
-        padding: 2rem 2rem;
-        p {
-            font-size: 1.2em;
+    .box {
+        border-radius: 9px;
+        .metadata {
+            background: #131314;
+            gap: 3rem;
+            width: 30%;
+            padding: 2rem 2rem;
+            .txt {
+                gap: 2rem;
+                p {
+                    font-size: 1.2em;
+                }
+            }
+            .act_sect{
+                p{
+                    color: #ffffff80;
+                }
+            }
+        }
+        .img {
+            width: 68%;
+            img {
+                width: 100%;
+            }
         }
     }
-    .img {
-        width: 68%;
-        img {
-            width: 100%;
-        }
+    small {
+        color: #ffffff80;
     }
-}
-small {
-    color: #ffffff80;
+    
 }
