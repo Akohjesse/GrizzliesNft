@@ -1,5 +1,6 @@
 <script setup>
 import hero from '@/components/heroSection.vue'
+import carousel from '@/components/carousel.vue'
 import Nav from '@/components/navbar.vue'
 </script>
 
@@ -13,6 +14,7 @@ import Nav from '@/components/navbar.vue'
     <div class="bg_right"></div>
     <hero />
     <Nav />
+    <carousel />
 </template>
 
 <style lang="scss" src="@/scss/generic.scss"></style>

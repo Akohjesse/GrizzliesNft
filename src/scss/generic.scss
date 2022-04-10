@@ -63,6 +63,12 @@ p {
         color: black;
     }
 }
+.btn_long{
+    button{
+        width: 100%;
+        font-size: 1.1em;
+    }
+}
 button {
     outline: none;
     cursor: pointer;
