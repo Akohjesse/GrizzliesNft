@@ -2,6 +2,7 @@
 import hero from '@/components/heroSection.vue'
 import carousel from '@/components/carousel.vue'
 import Nav from '@/components/navbar.vue'
+import creators from '@/components/creators.vue'
 </script>
 
 <template>
@@ -15,6 +16,7 @@ import Nav from '@/components/navbar.vue'
     <hero />
     <Nav />
     <carousel />
+    <creators />
 </template>
 
 <style lang="scss" src="@/scss/generic.scss"></style>
