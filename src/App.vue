@@ -5,6 +5,7 @@ import Nav from '@/components/navbar.vue'
 import creators from '@/components/creators.vue'
 import auctions from '@/components/auctions.vue'
 import Collections from '../src/components/collections.vue'
+import Footer from '@/components/footer.vue'
 </script>
 
 <template>
@@ -21,6 +22,7 @@ import Collections from '../src/components/collections.vue'
     <auctions />
     <Collections />
     <creators />
+    <Footer />
 </template>
 
 <style lang="scss" src="@/scss/generic.scss"></style>
