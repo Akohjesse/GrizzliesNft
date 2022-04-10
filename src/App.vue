@@ -7,6 +7,7 @@ import auctions from '@/components/auctions.vue'
 import Collections from '../src/components/collections.vue'
 import Footer from '@/components/footer.vue'
 import Header from '@/components/header.vue'
+import Scroller from '@/components/scoller.vue'
 </script>
 
 <template>
@@ -20,6 +21,7 @@ import Header from '@/components/header.vue'
     <Header />
     <hero />
     <Nav />
+    <Scroller />
     <carousel />
     <auctions />
     <Collections />
