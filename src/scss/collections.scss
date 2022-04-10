@@ -1,2 +1,24 @@
-.temp_wrap {
+.container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    > div {
+        height: 28rem;
+        width: 100%;
+        background-color: blue;
+        position: relative;
+        .top {
+            height: 14rem;
+            width: 50%;
+            top: 0px;
+            left: 0px;
+            background-color: rgb(222, 132, 132);
+        }
+        .two {
+            height: 14rem;
+            width: 50%;
+            bottom: 0px;
+            left: 0px;
+            background-color: yellow;
+        }
+    }
 }

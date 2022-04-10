@@ -1,14 +1,15 @@
 <template>
     <div class="temp_wrap">
-        <div class="header">
+        <div class="header flex flex_r">
             <p>Collections</p>
             <small>View all</small>
         </div>
-        <div class="grid">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
+        <br />
+        <div class="grid container">
+            <div>
+                <div class="top abs"></div>
+                <div class="two abs"></div>
+            </div>
         </div>
     </div>
 </template>
