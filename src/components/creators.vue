@@ -1,14 +1,20 @@
 <script setup>
 import db from '../db/creators.json'
+import animateSection from '../animations/featured_creators'
+import { onMounted } from '@vue/runtime-core'
+
+onMounted(() => {
+    animateSection()
+})
 </script>
 
 <template>
-    <div class="temp_wrap">
+    <div class="temp_wrap creators">
         <div class="header">
             <p>Featured Creators</p>
         </div>
         <br />
-        <div class="divette flex">
+        <div class="divette flex creator_wrap">
             <div
                 class="car_wrap flex_col flex"
                 v-for="item in db"
