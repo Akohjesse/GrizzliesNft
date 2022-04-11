@@ -3,7 +3,7 @@ import db from '../db/featured.json'
 import animateSection from '../animations/carousel_flow'
 import { onMounted } from '@vue/runtime-core'
 
-onMounted(()=>{
+onMounted(() => {
     animateSection()
 })
 </script>
