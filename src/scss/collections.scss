@@ -3,8 +3,13 @@
     grid-gap: 20px;
     > div {
         position: relative;
+        overflow: hidden;
         img {
             width: 100%;
+            transition: transform 3s ease;
+            &:hover {
+                transform: translateX(30%);
+            }
         }
         h1 {
             z-index: 40;
@@ -28,16 +33,26 @@
             top: 0px;
             left: 0px;
             width: 50%;
+            overflow: hidden;
             img {
                 width: 100%;
+                transition: transform 2s ease-in-out;
+                &:hover {
+                    transform: scale(2);
+                }
             }
         }
         .two {
             bottom: 0px;
             width: 50%;
             left: 0px;
+            overflow: hidden;
             img {
                 width: 100%;
+                transition: transform 0.5s ease-in-out;
+                &:hover {
+                    transform: scale(1.3);
+                }
             }
         }
     }
