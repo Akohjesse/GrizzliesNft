@@ -9,6 +9,8 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "gsap": "^3.10.2",
+    "locomotive-scroll": "^4.1.4",
     "vue": "^3.0.0"
   },
   "devDependencies": {

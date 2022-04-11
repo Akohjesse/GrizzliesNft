@@ -1,14 +1,20 @@
 <script setup>
 import db from '../db/featured.json'
+import animateSection from '../animations/carousel_flow'
+import { onMounted } from '@vue/runtime-core'
+
+onMounted(()=>{
+    animateSection()
+})
 </script>
 
 <template>
-    <div class="temp_wrap">
+    <div class="temp_wrap carousel">
         <div class="header">
             <p>Featured</p>
         </div>
         <br />
-        <div class="divette flex">
+        <div class="divette carousel_container flex">
             <div
                 class="car_wrap flex_col flex"
                 v-for="item in db"

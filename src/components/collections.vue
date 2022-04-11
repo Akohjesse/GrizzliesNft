@@ -3,7 +3,7 @@ import db from '@/db/collections.json'
 </script>
 
 <template>
-    <div class="temp_wrap">
+    <div class="temp_wrap" >
         <div class="header flex flex_r">
             <p>Collections</p>
             <small>View all</small>
