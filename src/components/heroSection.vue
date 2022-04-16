@@ -1,3 +1,12 @@
+<script setup>
+import { onMounted } from '@vue/runtime-core'
+import animateSection from '../animations/stagger_img'
+
+onMounted(() => {
+    animateSection()
+})
+</script>
+
 <template>
     <div class="temp_wrap">
         <div class="hero_content flex flex_r">
@@ -54,9 +63,5 @@
         </div>
     </div>
 </template>
-
-<script>
-export default {}
-</script>
 
 <style lang="scss" src="@/scss/hero.scss"></style>
