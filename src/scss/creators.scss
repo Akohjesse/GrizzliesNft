@@ -17,7 +17,9 @@
             border-radius: 10px;
             width: 100%;
             z-index: -2;
-            background-color: red;
+            img {
+                width: 100%;
+            }
         }
         .cntnt {
             gap: 1em;
