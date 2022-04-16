@@ -27,14 +27,16 @@
                 </div>
                 <div class="act_sect">
                     <small>Seller</small>
-                    <div class="seller_id flex">
-                        <img src="@/assets/bid1.svg" alt="" />
-                        &nbsp; &nbsp;
-                        <p class="name">@Johny</p>
-                    </div>
-                    <div class="arrows">
-                        <div class="left"></div>
-                        <div class="right"></div>
+                    <div class="flex flex_r">
+                        <div class="seller_id flex">
+                            <img src="@/assets/bid1.svg" alt="" />
+                            &nbsp; &nbsp;
+                            <p class="name">@Johny</p>
+                        </div>
+                        <div class="arrows flex flex_r">
+                            <img src="@/assets/arr1.svg" alt="" />
+                            <img src="@/assets/arr2.svg" alt="" />
+                        </div>
                     </div>
                 </div>
                 <div class="btn_mono btn_long">
