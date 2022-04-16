@@ -2,7 +2,6 @@
 import { ref } from '@vue/reactivity'
 
 const int = ref(1)
-
 const forward = () => {
     if (int.value > 2) {
         int.value = 1
@@ -11,7 +10,6 @@ const forward = () => {
     }
 }
 const backward = () => {
-    console.log(int.value)
     if (int.value < 2) {
         int.value = 3
     } else {
@@ -75,18 +73,8 @@ const backward = () => {
             </div>
             <div class="img">
                 <img
-                    class="animate__animated animate__bounce"
-                    src="@/assets/ac1.svg"
-                    alt=""
-                />
-                <img
-                    class="animate__animated animate__bounce"
-                    src="@/assets/ac2.svg"
-                    alt=""
-                />
-                <img
-                    class="animate__animated animate__bounce"
-                    src="@/assets/ac3.svg"
+                    ref="image"
+                    :src="require(`@/assets/ac${int}.svg`)"
                     alt=""
                 />
             </div>

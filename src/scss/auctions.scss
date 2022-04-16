@@ -26,8 +26,13 @@
         }
         .img {
             width: 68%;
+            overflow: hidden;
             img {
                 width: 100%;
+                transition: transform 3s ease-in-out;
+                &:hover {
+                    transform: scale(1.1);
+                }
             }
         }
     }
