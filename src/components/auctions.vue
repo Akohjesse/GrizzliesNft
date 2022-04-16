@@ -1,7 +1,14 @@
 <script setup>
 import { ref } from '@vue/reactivity'
 
-const int = ref(1)
+const int = ref(1);
+
+const forward = ()=>{
+    int.value++
+}
+const backward = ()=>{
+    int.value--
+}
 </script>
 
 <template>
@@ -40,8 +47,8 @@ const int = ref(1)
                             <p class="name">@Johny</p>
                         </div>
                         <div class="arrows flex flex_r">
-                            <img src="@/assets/arr1.svg" alt="" />
-                            <img src="@/assets/arr2.svg" alt="" />
+                            <img src="@/assets/arr1.svg" @click="backward" alt="" />
+                            <img src="@/assets/arr2.svg" @click="forward" alt="" />
                         </div>
                     </div>
                 </div>
