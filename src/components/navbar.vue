@@ -17,7 +17,6 @@ export default {}
 <style lang="scss" scoped>
 .wrap {
     padding: 6rem 0;
-    position: relative;
     nav {
         margin: 0 auto;
         width: 40%;
