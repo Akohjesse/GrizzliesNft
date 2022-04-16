@@ -1,3 +1,9 @@
+<script setup>
+import { ref } from '@vue/reactivity'
+
+const int = ref(1)
+</script>
+
 <template>
     <div class="temp_wrap">
         <div class="flex header flex_r">
@@ -44,14 +50,10 @@
                 </div>
             </div>
             <div class="img">
-                <img src="@/assets/ac1.svg" alt="" />
+                <img :src="require(`@/assets/ac${int}.svg`)" alt="" />
             </div>
         </div>
     </div>
 </template>
-
-<script>
-export default {}
-</script>
 
 <style lang="scss" src="@/scss/auctions.scss" scoped></style>
