@@ -1,13 +1,22 @@
 <script setup>
 import { ref } from '@vue/reactivity'
 
-const int = ref(1);
+const int = ref(1)
 
-const forward = ()=>{
-    int.value++
+const forward = () => {
+    if (int.value > 2) {
+        int.value = 1
+    } else {
+        int.value++
+    }
 }
-const backward = ()=>{
-    int.value--
+const backward = () => {
+    console.log(int.value)
+    if (int.value < 2) {
+        int.value = 3
+    } else {
+        int.value--
+    }
 }
 </script>
 
@@ -47,8 +56,16 @@ const backward = ()=>{
                             <p class="name">@Johny</p>
                         </div>
                         <div class="arrows flex flex_r">
-                            <img src="@/assets/arr1.svg" @click="backward" alt="" />
-                            <img src="@/assets/arr2.svg" @click="forward" alt="" />
+                            <img
+                                src="@/assets/arr1.svg"
+                                @click="backward"
+                                alt=""
+                            />
+                            <img
+                                src="@/assets/arr2.svg"
+                                @click="forward"
+                                alt=""
+                            />
                         </div>
                     </div>
                 </div>
@@ -57,7 +74,21 @@ const backward = ()=>{
                 </div>
             </div>
             <div class="img">
-                <img :src="require(`@/assets/ac${int}.svg`)" alt="" />
+                <img
+                    class="animate__animated animate__bounce"
+                    src="@/assets/ac1.svg"
+                    alt=""
+                />
+                <img
+                    class="animate__animated animate__bounce"
+                    src="@/assets/ac2.svg"
+                    alt=""
+                />
+                <img
+                    class="animate__animated animate__bounce"
+                    src="@/assets/ac3.svg"
+                    alt=""
+                />
             </div>
         </div>
     </div>
