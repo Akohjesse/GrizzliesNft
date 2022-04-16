@@ -48,10 +48,20 @@ section {
     .sect {
         flex-shrink: 0;
         flex-shrink: 0;
+        animation: scrollInfinitely 5s linear infinite;
         gap: 0 1rem;
+        transition: animation 4s ease-in-out;
         p {
             font-size: 1.3em;
         }
+    }
+}
+@keyframes scrollInfinitely {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+    100% {
+        transform: translate3d(-120%, 0, 0);
     }
 }
 </style>

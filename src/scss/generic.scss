@@ -7,6 +7,7 @@
 }
 html {
     scroll-behavior: smooth;
+    font-size: calc(100vw / 1440 * 15);
 }
 body {
     font-family: 'Syne', sans-serif;
