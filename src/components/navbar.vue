@@ -23,6 +23,9 @@ export default {}
         border: 1px solid white;
         padding: 10px 2rem;
         border-radius: 10px;
+        @media screen and (max-width: 1200px) {
+            width: 60%;
+        }
         p {
             &:nth-child(1) {
                 background: white;

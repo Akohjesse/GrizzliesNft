@@ -7,7 +7,6 @@
 }
 html {
     scroll-behavior: smooth;
-    font-size: calc(100vw / 1440 * 15);
 }
 body {
     font-family: 'Syne', sans-serif;
@@ -86,6 +85,9 @@ button {
     width: 80%;
     margin: 0 auto;
     padding: 4.3rem 0px;
+    @media screen and (max-width: 1200px) {
+        width: 90%;
+    }
 }
 .ta_center {
     text-align: center;

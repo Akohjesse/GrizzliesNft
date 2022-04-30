@@ -1,5 +1,5 @@
 <template>
-    <header class="flex flex_r temp_wrap">
+    <header id="top" class="flex flex_r temp_wrap">
         <div class="logo">
             <img src="@/assets/logo.svg" alt="" />
         </div>
@@ -14,6 +14,7 @@ export default {}
 <style lang="scss" scoped>
 header {
     padding: 2.5rem 0px;
+    cursor: pointer;
     h3 {
         padding: 15px 2rem;
         border-radius: 1rem;
