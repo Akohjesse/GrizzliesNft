@@ -7,6 +7,10 @@
 }
 html {
      scroll-behavior: smooth;
+     font-size:1vw;
+     @include media("<=phone-tab"){
+         font-size: 16px;
+     }
 }
 body {
      font-family: 'Syne', sans-serif;
