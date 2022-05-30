@@ -1,32 +1,32 @@
 [
-    {
-        "id": 1,
-        "name": "Chuck Anderson",
-        "bio": "Chuck Anderson is an artist, designer & photographer from Chicago. A pioneering figure in the..."
-    },
-    {
-        "id": 2,
-        "name": "Reni Rocko",
-        "bio": "Visual Artist | Psychedelic Surrealism From memory fragments and playful intuition grow bizarre inner ..."
-    },
-    {
-        "id": 3,
-        "name": "Benjamin Aidoo",
-        "bio": "I'm Benjamin Aidoo, the leader of Coffin Dance Team. Our meme is one of the most famous in the world, and ..."
-    },
-    {
-        "id": 1,
-        "name": "Chuck Anderson",
-        "bio": "Chuck Anderson is an artist, designer & photographer from Chicago. A pioneering figure in the..."
-    },
-    {
-        "id": 2,
-        "name": "Reni Rocko",
-        "bio": "Visual Artist | Psychedelic Surrealism From memory fragments and playful intuition grow bizarre inner ..."
-    },
-    {
-        "id": 3,
-        "name": "Benjamin Aidoo",
-        "bio": "I'm Benjamin Aidoo, the leader of Coffin Dance Team. Our meme is one of the most famous in the world, and ..."
-    }
+     {
+          "id": 1,
+          "name": "Chuck Anderson",
+          "bio": "Chuck Anderson is an artist, designer & photographer from Chicago. A pioneering figure in the..."
+     },
+     {
+          "id": 2,
+          "name": "Reni Rocko",
+          "bio": "Visual Artist | Psychedelic Surrealism From memory fragments and playful intuition grow bizarre inner ..."
+     },
+     {
+          "id": 3,
+          "name": "Benjamin Aidoo",
+          "bio": "I'm Benjamin Aidoo, the leader of Coffin Dance Team. Our meme is one of the most famous in the world, and ..."
+     },
+     {
+          "id": 1,
+          "name": "Chuck Anderson",
+          "bio": "Chuck Anderson is an artist, designer & photographer from Chicago. A pioneering figure in the..."
+     },
+     {
+          "id": 2,
+          "name": "Reni Rocko",
+          "bio": "Visual Artist | Psychedelic Surrealism From memory fragments and playful intuition grow bizarre inner ..."
+     },
+     {
+          "id": 3,
+          "name": "Benjamin Aidoo",
+          "bio": "I'm Benjamin Aidoo, the leader of Coffin Dance Team. Our meme is one of the most famous in the world, and ..."
+     }
 ]
