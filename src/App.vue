@@ -11,22 +11,22 @@ import Scroller from '@/components/scoller.vue'
 </script>
 
 <template>
-    <div class="bg_left abs">
-        <img src="@/assets/bgblur1.svg" alt="" />
-    </div>
-    <div class="bg_right abs">
-        <img src="@/assets/bgblur2.svg" alt="" />
-    </div>
-    <div class="bg_right"></div>
-    <Header />
-    <hero />
-    <Nav />
-    <Scroller />
-    <carousel />
-    <auctions />
-    <Collections />
-    <creators />
-    <Footer />
+     <div class="bg_left abs">
+          <img src="@/assets/bgblur1.svg" alt="" />
+     </div>
+     <div class="bg_right abs">
+          <img src="@/assets/bgblur2.svg" alt="" />
+     </div>
+     <div class="bg_right"></div>
+     <Header />
+     <hero />
+     <Nav />
+     <Scroller />
+     <carousel />
+     <auctions />
+     <Collections />
+     <creators />
+     <Footer />
 </template>
 
 <style lang="scss" src="@/scss/generic.scss"></style>
