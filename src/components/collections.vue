@@ -38,4 +38,64 @@ import db from '@/db/collections.json'
      </div>
 </template>
 
-<style lang="scss" src="@/scss/collections.scss" scoped></style>
+<style lang="scss" scoped>
+.container {
+     grid-template-columns: repeat(2, 1fr);
+     grid-gap: 20px;
+     > div {
+          position: relative;
+          overflow: hidden;
+          img {
+               width: 100%;
+               transition: transform 2s ease;
+               &:hover {
+                    transform: translateX(30%);
+               }
+          }
+          h1 {
+               z-index: 40;
+               background: #1a1a1a4d;
+               padding: 10px 16px;
+               border-radius: 30px;
+               font-weight: 400;
+               top: 9%;
+               font-size: 2em;
+               left: 9%;
+               img {
+                    width: 15px;
+               }
+          }
+          .seller_id {
+               z-index: 40;
+               bottom: 8%;
+               left: 9%;
+          }
+          .top {
+               top: 0px;
+               left: 0px;
+               width: 50%;
+               overflow: hidden;
+               img {
+                    width: 100%;
+                    transition: transform 2s ease-in-out;
+                    &:hover {
+                         transform: scale(2);
+                    }
+               }
+          }
+          .two {
+               bottom: 0px;
+               width: 50%;
+               left: 0px;
+               overflow: hidden;
+               img {
+                    width: 100%;
+                    transition: transform 0.5s ease-in-out;
+                    &:hover {
+                         transform: scale(1.3);
+                    }
+               }
+          }
+     }
+}
+</style>
