@@ -82,4 +82,47 @@ const backward = () => {
      </div>
 </template>
 
-<style lang="scss" src="@/scss/auctions.scss" scoped></style>
+<style lang="scss" scoped>
+.temp_wrap {
+     .name {
+          font-size: 1.4em;
+     }
+     .box {
+          border-radius: 9px;
+          .metadata {
+               background: #131314;
+               gap: 3rem;
+               width: 30%;
+               padding: 2.8rem 2rem;
+               .txt {
+                    gap: 2rem;
+                    p {
+                         font-size: 1.2em;
+                    }
+               }
+               .act_sect {
+                    p {
+                         color: #ffffff80;
+                    }
+                    .arrows {
+                         gap: 0 4rem;
+                         img {
+                              cursor: pointer;
+                         }
+                    }
+               }
+          }
+          .img {
+               width: 68%;
+               overflow: hidden;
+               img {
+                    width: 100%;
+                    transition: transform 3s ease-in-out;
+                    &:hover {
+                         transform: scale(1.1);
+                    }
+               }
+          }
+     }
+}
+</style>
