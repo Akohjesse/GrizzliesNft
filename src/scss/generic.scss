@@ -1,103 +1,103 @@
 @import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400;500;600&family=Syne&display=swap');
 @import url('../css/locomotive.css');
 * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+     margin: 0px;
+     padding: 0px;
+     box-sizing: border-box;
 }
 html {
-    scroll-behavior: smooth;
+     scroll-behavior: smooth;
 }
 body {
-    font-family: 'Syne', sans-serif;
-    overflow-x: hidden;
-    background: #030305;
-    color: white;
+     font-family: 'Syne', sans-serif;
+     overflow-x: hidden;
+     background: #030305;
+     color: white;
 }
 .abs {
-    position: absolute;
+     position: absolute;
 }
 .bg_left {
-    z-index: -100;
-    top: -20%;
-    left: -50%;
-    img {
-        width: 80%;
-    }
+     z-index: -100;
+     top: -20%;
+     left: -50%;
+     img {
+          width: 80%;
+     }
 }
 .bg_right {
-    z-index: -100;
-    top: 20%;
-    right: -70%;
-    img {
-        width: 80%;
-    }
+     z-index: -100;
+     top: 20%;
+     right: -70%;
+     img {
+          width: 80%;
+     }
 }
 p {
-    font-size: 1.1em;
-    line-height: 1.5rem;
+     font-size: 1.1em;
+     line-height: 1.5rem;
 }
 ::-webkit-scrollbar {
-    display: none;
+     display: none;
 }
 .flex_dir_rr {
-    flex-direction: row-reverse;
+     flex-direction: row-reverse;
 }
 .up_case {
-    text-transform: uppercase;
+     text-transform: uppercase;
 }
 .flex {
-    display: flex;
+     display: flex;
 }
 .flex_r {
-    justify-content: space-between;
-    align-items: center;
+     justify-content: space-between;
+     align-items: center;
 }
 .flex_col {
-    flex-direction: column;
+     flex-direction: column;
 }
 .grid {
-    display: grid;
+     display: grid;
 }
 .btn_mono {
-    button {
-        border: 1px solid black;
-        background: white;
-        color: black;
-    }
+     button {
+          border: 1px solid black;
+          background: white;
+          color: black;
+     }
 }
 .btn_long {
-    button {
-        width: 100%;
-        font-size: 1.15em;
-    }
+     button {
+          width: 100%;
+          font-size: 1.15em;
+     }
 }
 button {
-    outline: none;
-    cursor: pointer;
-    border: none;
-    padding: 12px 30px;
-    font-size: 1em;
-    border-radius: 3px;
-    font-family: inherit;
+     outline: none;
+     cursor: pointer;
+     border: none;
+     padding: 12px 30px;
+     font-size: 1em;
+     border-radius: 3px;
+     font-family: inherit;
 }
 .temp_wrap {
-    width: 80%;
-    margin: 0 auto;
-    padding: 4.3rem 0px;
-    @media screen and (max-width: 1200px) {
-        width: 90%;
-    }
+     width: 80%;
+     margin: 0 auto;
+     padding: 4.3rem 0px;
+     @media screen and (max-width: 1200px) {
+          width: 90%;
+     }
 }
 .ta_center {
-    text-align: center;
+     text-align: center;
 }
 small {
-    color: #ffffff80;
-    font-size: 0.96em;
+     color: #ffffff80;
+     font-size: 0.96em;
 }
 .header {
-    > p {
-        font-size: 1.4em;
-    }
+     > p {
+          font-size: 1.4em;
+     }
 }
