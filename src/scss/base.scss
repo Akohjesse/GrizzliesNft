@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400;500;600&family=Syne&display=swap');
+@import url('../css/locomotive.css');
+* {
+     margin: 0px;
+     padding: 0px;
+     box-sizing: border-box;
+}
+html {
+     scroll-behavior: smooth;
+}
+body {
+     font-family: 'Syne', sans-serif;
+     overflow-x: hidden;
+     background: #030305;
+     color: white;
+}
+p {
+    font-size: 1.1em;
+    line-height: 1.5rem;
+}
+button {
+    outline: none;
+    cursor: pointer;
+    border: none;
+    padding: 12px 30px;
+    font-size: 1em;
+    border-radius: 3px;
+    font-family: inherit;
+}
+small {
+    color: #ffffff80;
+    font-size: 0.96em;
+}
+

@@ -28,5 +28,3 @@ import Scroller from '@/components/scoller.vue'
      <creators />
      <Footer />
 </template>
-
-<style lang="scss" src="@/scss/generic.scss"></style>
