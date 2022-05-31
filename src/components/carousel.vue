@@ -1,7 +1,7 @@
 <script setup>
 import db from '../db/featured.json'
 import { onMounted } from '@vue/runtime-core'
-import { gsap, Circ } from 'gsap'
+import { gsap, Sine } from 'gsap'
 import ScrollTrigger from 'gsap/ScrollTrigger'
 onMounted(() => {
      let sections = gsap.utils.toArray('.carousel_container .car_wrap')
@@ -11,16 +11,15 @@ onMounted(() => {
                gsap.timeline({
                     scrollTrigger: {
                          trigger: '.carousel',
-                         scrub: 3,
-                         start: 'center center',
+                         scrub: -1,
+                         start: 'center +=600',
                          end: 'bottom +=300',
-                         pin: '.carousel',
                          toggleActions: 'play pause resume restart',
                     },
                }).to('.carousel', {
-                    xPercent: -100 * (sections.length - 2),
+                    xPercent: -40 * (sections.length - 2),
                     duration: 20,
-                    ease: Circ.easeInOut,
+                    ease:Sine.easeOut,
                })
           },
      })

@@ -8,18 +8,18 @@ onMounted(() => {
      let sections = gsap.utils.toArray('.creator_wrap .car_wrap')
      gsap.registerPlugin(ScrollTrigger)
      ScrollTrigger.matchMedia({
-          '(min-width:700px)': function () {
+          '(min-width:868px)': function () {
                gsap.timeline({
                     scrollTrigger: {
                          trigger: '.creators',
-                         scrub: 2,
+                         scrub: -1,
                          start: 'center center',
                          end: 'bottom +=300',
                          pin: '.creators',
                          toggleActions: 'play reset none restart',
                     },
                }).to('.creators .creator_wrap', {
-                    xPercent: -70 * (sections.length - 2),
+                    xPercent: 35 * (sections.length - 2),
                     duration: 20,
                     ease: Circ.easeInOut,
                })
@@ -77,7 +77,7 @@ onMounted(() => {
      overflow: visible;
      margin: 0 auto;
      flex-direction: row-reverse;
-     @include media('<=phone-tab') {
+     @include media('<=tablet') {
           @include flex_col(3rem);
      }
      .car_wrap {
@@ -88,7 +88,7 @@ onMounted(() => {
           flex-shrink: 0;
           position: relative;
           padding: 20px;
-          @include media('<700px') {
+          @include media('<=tablet') {
                width: 100%;
           }
           .bg {
@@ -118,7 +118,7 @@ onMounted(() => {
                     font-size: 0.98em;
                     width: 80%;
                     margin: 0 auto;
-                    @include media('<=phone-tab') {
+                    @include media('<=tablet') {
                          width: 95%;
                     }
                }
