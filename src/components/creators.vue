@@ -88,6 +88,9 @@ onMounted(() => {
           flex-shrink: 0;
           position: relative;
           padding: 20px;
+          @include media('<700px') {
+               width: 100%;
+          }
           .bg {
                height: 15rem;
                border-radius: 10px;
@@ -115,6 +118,9 @@ onMounted(() => {
                     font-size: 0.98em;
                     width: 80%;
                     margin: 0 auto;
+                    @include media('<=phone-tab') {
+                         width: 95%;
+                    }
                }
                .btn_mono {
                     button {

@@ -42,6 +42,9 @@ import db from '@/db/collections.json'
 .container {
      grid-template-columns: repeat(2, 1fr);
      grid-gap: 20px;
+     @include media('<=phone-tab') {
+          grid-template-columns: repeat(1, 1fr);
+     }
      > div {
           position: relative;
           overflow: hidden;
@@ -63,6 +66,10 @@ import db from '@/db/collections.json'
                left: 9%;
                img {
                     width: 15px;
+               }
+               @include media('<=phone-tab') {
+                    font-size: 1.7em;
+                    grid-gap: 3rem;
                }
           }
           .seller_id {

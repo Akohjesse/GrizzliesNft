@@ -34,6 +34,9 @@ export default {}
      }
      ul {
           gap: 0 3rem;
+          @include media('<desktop') {
+               display: none;
+          }
           li {
                list-style-type: none;
                font-size: 1.3em;
