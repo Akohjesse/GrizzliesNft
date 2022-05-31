@@ -78,7 +78,7 @@ onMounted(() => {
      margin: 0 auto;
      flex-direction: row-reverse;
      @include media('<=phone-tab') {
-          @include flex_col(2rem);
+          @include flex_col(3rem);
      }
      .car_wrap {
           width: 38%;

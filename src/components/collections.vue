@@ -44,6 +44,7 @@ import db from '@/db/collections.json'
      grid-gap: 20px;
      @include media('<=phone-tab') {
           grid-template-columns: repeat(1, 1fr);
+          grid-gap: 3rem;
      }
      > div {
           position: relative;

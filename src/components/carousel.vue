@@ -85,7 +85,7 @@ onMounted(() => {
      overflow: visible;
      margin: 0 auto;
      @include media('<=phone-tab') {
-          @include flex_col(2rem);
+          @include flex_col(3rem);
      }
      .car_wrap {
           border: 1px solid rgba(255, 255, 255, 0.2);
