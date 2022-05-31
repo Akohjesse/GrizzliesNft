@@ -1,10 +1,26 @@
 <script setup>
 import db from '../db/creators.json'
-import animateSection from '../animations/featured_creators'
 import { onMounted } from '@vue/runtime-core'
+import { gsap, Circ } from 'gsap'
+import ScrollTrigger from 'gsap/ScrollTrigger'
 
 onMounted(() => {
-     animateSection()
+     let sections = gsap.utils.toArray('.creator_wrap .car_wrap')
+     gsap.registerPlugin(ScrollTrigger)
+     gsap.timeline({
+          scrollTrigger: {
+               trigger: '.creators',
+               scrub: 2,
+               start: 'center center',
+               end: 'bottom +=300',
+               pin: '.creators',
+               toggleActions: 'play reset none restart',
+          },
+     }).to('.creators .creator_wrap', {
+          xPercent: -70 * (sections.length - 2),
+          duration: 20,
+          ease: Circ.easeInOut,
+     })
 })
 </script>
 
@@ -57,6 +73,9 @@ onMounted(() => {
      overflow: visible;
      margin: 0 auto;
      flex-direction: row-reverse;
+     @include media('<=phone-tab') {
+          @include flex_col(2rem);
+     }
      .car_wrap {
           width: 38%;
           border: 1px solid rgba(255, 255, 255, 0.2);
