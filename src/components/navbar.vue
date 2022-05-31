@@ -17,15 +17,19 @@ export default {}
 <style lang="scss" scoped>
 .wrap {
      padding: 6rem 0;
+     @include media('<=phone-tab') {
+          display: none;
+     }
      nav {
           margin: 0 auto;
           width: 40%;
           border: 1px solid white;
           padding: 10px 2rem;
           border-radius: 10px;
-          @media screen and (max-width: 1200px) {
-               width: 60%;
+          @include media('<=tablet') {
+               width: 80%;
           }
+
           p {
                &:nth-child(1) {
                     background: white;

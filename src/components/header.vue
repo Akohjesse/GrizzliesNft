@@ -20,6 +20,9 @@ header {
           border-radius: 1rem;
           background: #131314;
           font-size: 1.3em;
+          @include media('<=tablet') {
+               font-size: 1em;
+          }
      }
 }
 </style>

@@ -1,1 +1,14 @@
-@import './breakpoints.scss'
+@import './breakpoints.scss';
+
+@mixin flex($jc, $ai, $gap) {
+     display: flex;
+     justify-content: $jc;
+     align-items: $ai;
+     gap: $gap;
+}
+
+@mixin flex_col($gap) {
+     display: flex;
+     flex-direction: column;
+     gap: $gap;
+}

@@ -6,7 +6,6 @@ onMounted(() => {
      animateSection()
 })
 </script>
-
 <template>
      <div class="temp_wrap">
           <div class="hero_content flex flex_r">
@@ -66,14 +65,28 @@ onMounted(() => {
 
 <style lang="scss">
 .hero_content {
+     @include media('<=tablet') {
+          @include flex_col(5rem);
+     }
      .txt {
           width: 45%;
           gap: 2rem;
+          @include media('<=tablet') {
+               width: 100%;
+          }
           h1 {
                font-size: 4.7em;
                font-weight: 400;
                letter-spacing: 1px;
                line-height: 6rem;
+               @include media('<=tablet') {
+                    font-size: 4em;
+                    line-height: 5rem;
+               }
+               @include media('<=phone-tab') {
+                    font-size: 3em;
+                    line-height: 4rem;
+               }
           }
           p {
                color: #ffffff80;
@@ -90,6 +103,9 @@ onMounted(() => {
      }
      .right_flg {
           width: 40%;
+          @include media('<=tablet') {
+               width: 100%;
+          }
           .img {
                width: 31%;
                align-self: center;

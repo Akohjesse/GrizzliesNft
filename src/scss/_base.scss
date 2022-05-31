@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400;500;600&family=Syne&display=swap');
-@import url('../css/locomotive.css');
 * {
      margin: 0px;
      padding: 0px;
@@ -7,9 +6,9 @@
 }
 html {
      scroll-behavior: smooth;
-     font-size:1vw;
-     @include media("<=phone-tab"){
-         font-size: 16px;
+     font-size: 1vw;
+     @include media('<=tablet') {
+          font-size: 16px;
      }
 }
 body {
@@ -19,20 +18,19 @@ body {
      color: white;
 }
 p {
-    font-size: 1.1em;
-    line-height: 1.5rem;
+     font-size: 1.1em;
+     line-height: 1.5rem;
 }
 button {
-    outline: none;
-    cursor: pointer;
-    border: none;
-    padding: 12px 30px;
-    font-size: 1em;
-    border-radius: 3px;
-    font-family: inherit;
+     outline: none;
+     cursor: pointer;
+     border: none;
+     padding: 12px 30px;
+     font-size: 1em;
+     border-radius: 3px;
+     font-family: inherit;
 }
 small {
-    color: #ffffff80;
-    font-size: 0.96em;
+     color: #ffffff80;
+     font-size: 0.96em;
 }
-
