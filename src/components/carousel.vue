@@ -18,7 +18,7 @@ onMounted(() => {
                          toggleActions: 'play pause resume restart',
                     },
                }).to('.carousel', {
-                    xPercent: 100 * (sections.length - 2),
+                    xPercent: -100 * (sections.length - 2),
                     duration: 20,
                     ease: Circ.easeInOut,
                })
