@@ -13,7 +13,7 @@
      z-index: -100;
      top: 20%;
      right: -70%;
-     @include media("<=phone-tab"){
+     @include media('<=phone-tab') {
           display: none;
      }
      img {

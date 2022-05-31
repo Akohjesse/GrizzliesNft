@@ -31,7 +31,7 @@ export default {}
           padding: 15px 2rem;
           border-radius: 1rem;
           background: #131314;
-            @include media('<=tablet') {
+          @include media('<=tablet') {
                font-size: 1em;
           }
      }
@@ -47,7 +47,7 @@ export default {}
      }
      p {
           font-size: 1.3em;
-           @include media('<=tablet') {
+          @include media('<=tablet') {
                font-size: 1em;
           }
      }

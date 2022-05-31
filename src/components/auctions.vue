@@ -25,7 +25,7 @@ const backward = () => {
                <small>View all</small>
           </div>
           <br />
-          <div class="flex flex_r box">
+          <div class="box">
                <div class="metadata flex flex_col">
                     <br />
                     <div class="txt flex flex_col">
@@ -88,12 +88,19 @@ const backward = () => {
           font-size: 1.4em;
      }
      .box {
+          @include flex(space-between, center, none);
           border-radius: 9px;
+          @include media('<=tablet') {
+               @include flex_col(1rem);
+          }
           .metadata {
                background: #131314;
                gap: 3rem;
                width: 30%;
                padding: 2.8rem 2rem;
+               @include media('<=tablet') {
+                    width: 100%;
+               }
                .txt {
                     gap: 2rem;
                     p {
@@ -115,6 +122,9 @@ const backward = () => {
           .img {
                width: 68%;
                overflow: hidden;
+               @include media('<=tablet') {
+                    width: 100%;
+               }
                img {
                     width: 100%;
                     transition: transform 3s ease-in-out;
