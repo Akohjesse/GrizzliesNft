@@ -3,7 +3,9 @@ import { onMounted } from '@vue/runtime-core'
 import animateSection from '../animations/stagger_img'
 
 onMounted(() => {
-     animateSection()
+    window.addEventListener('load', ()=>{
+          animateSection()
+    })
 })
 </script>
 <template>

@@ -22,14 +22,10 @@ export default {}
      }
      nav {
           margin: 0 auto;
-          width: 40%;
+          width: 35rem;
           border: 1px solid white;
           padding: 10px 2rem;
           border-radius: 10px;
-          @include media('<=tablet') {
-               width: 80%;
-          }
-
           p {
                &:nth-child(1) {
                     background: white;
