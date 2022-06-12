@@ -1,5 +1,9 @@
 <script setup>
+import LocomotiveScroll from 'locomotive-scroll';
 import db from '@/db/collections.json'
+
+
+
 </script>
 
 <template>

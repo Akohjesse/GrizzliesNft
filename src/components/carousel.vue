@@ -19,7 +19,7 @@ onMounted(() => {
                }).to('.carousel', {
                     xPercent: -40 * (sections.length - 2),
                     duration: 20,
-                    ease:Sine.easeOut,
+                    ease: Sine.easeOut,
                })
           },
      })
