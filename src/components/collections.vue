@@ -2,18 +2,22 @@
 import LocomotiveScroll from 'locomotive-scroll';
 import db from '@/db/collections.json'
 
+const scroll = new LocomotiveScroll({
+     el: document.querySelector('[data-scroll-container]'),
+     smooth: true
+});
 
-
+console.log(scroll)
 </script>
 
 <template>
-     <div class="temp_wrap">
+     <div data-scroll-container  class="temp_wrap">
           <div class="header flex flex_r">
                <p>Collections</p>
                <small>View all</small>
           </div>
           <br />
-          <div class="grid container">
+          <div data-scroll="" data-scroll-direction="horizontal" data-scroll-speed="-30" class="grid container">
                <div v-for="item in db" :key="item.id">
                     <h1 class="abs">
                          <img src="@/assets/pref.svg" alt="" />
